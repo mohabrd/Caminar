@@ -1,8 +1,79 @@
 body {
+  position: relative;
+  justify-content: center;
+  display: flex;
   margin: 0;
   padding: 0;
   background-image: url("../images/bg.jpg");
+  background-repeat: round;
   height: 100vw;
   width: 100vw;
-  size: 100%;
+  flex-wrap: wrap;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+nav h1 {
+  position: absolute;
+  display: flex;
+  color: white;
+  font-size: 300%;
+  margin-top: 5vw;
+  right: 44.5%;
+}
+
+nav span {
+  position: absolute;
+  display: flex;
+  right: 47%;
+  margin-top: 5vw;
+  top: 4%;
+  color: #b9b7ab;
+}
+
+.corps {
+  position: relative;
+  margin-top: 25%;
+  display: flex;
+  justify-content: center;
+  height: 50vw;
+  width: 50vw;
+  box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.4), 0 24px 80px 0 rgba(0, 0, 0, 0.38);
+}
+
+.corps img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.corps1-2 {
+  display: flex;
+  position: absolute;
+  margin-top: 40%;
+  height: 10vw;
+  width: 50vw;
+  background-color: white;
+  justify-content: center;
+}
+
+.corps1-2 h1 {
+  position: absolute;
+  display: flex;
+  margin-top: 3vw;
+}
+
+.corps1-2 hr {
+  transform: rotate(90deg);
+  margin-top: 1.5vw;
+}
+
+.corps1-2 span {
+  position: absolute;
+  display: flex;
+  margin-top: 6.5vw;
+  color: #d4dde5;
+  font-size: 90%;
+  letter-spacing: 1.5px;
 }
